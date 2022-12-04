@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="103" viewBox="0 0 300 103">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 46px;
+        fill: #e1000a;
+        font-family: "Franklin Gothic Medium";
+      }
+
+      .cls-2 {
+        font-size: 121px;
+        fill: #fff;
+        font-family: thealiens;
+      }
+    </style>
+  </defs>
+  <text id="Lorem_Ipsum" data-name="Lorem Ipsum" class="cls-1" x="400.392" y="67.301">Lorem Ipsum</text>
+  <text id="ROBLEIS" class="cls-2" x="34.115" y="98.449">ROBLEIS</text>
+</svg>
