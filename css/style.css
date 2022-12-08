@@ -689,7 +689,9 @@ article h3 {
     margin: 20px 10px;
 }
 
-
+#noticias {
+    margin-bottom: -25px;
+}
 
 
 /* -------||||||||| SECCION LETRAS|||||||||  -------  */
@@ -792,6 +794,8 @@ article h3 {
     .panel img {
         width: 100%;
     }
+
+    
 }
 
 @media screen and (max-width: 680px) {
@@ -858,6 +862,10 @@ main .div-fotos .short {
 
 .div-fotos .tall {
     grid-row: span 2;
+}
+
+.main-fotos {
+    margin-bottom: -60px;
 }
 
 @media screen and (max-width: 960px) {
