@@ -1,0 +1,21 @@
+//! LISTAS
+
+$colores:
+red,
+blue,
+black;
+
+$font-size:
+2px,
+10px,
+25px;
+
+
+//!EXTENDS
+// % = placeholder
+
+%flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

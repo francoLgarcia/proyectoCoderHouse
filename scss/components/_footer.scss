@@ -1,0 +1,39 @@
+footer {
+    height: 25vh;
+    width: 100%;
+    background-image: url("/img/footer.jpg");
+    background-size: cover;
+    background-position: center;
+    .footer{
+        padding-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        ul{
+            .redes-footer{
+                ul{
+                    display: flex;
+                    li{
+                        text-align: center;
+                        text-decoration: none;
+                            color: white;
+                        a{
+                            text-decoration: none;
+                            color: white;
+                            img{
+                                height: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+            li{
+                a{
+                    text-decoration: none;
+    color: white;
+
+                }
+            }
+        }
+    }
+}

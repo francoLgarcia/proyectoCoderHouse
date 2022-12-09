@@ -103,49 +103,6 @@ nav ul li {
 
 
 
-/* .hero {
-    text-align: center;
-    display: flex;
-    width: 100%;
-    height: 85vh;
-    background-image: url("/img/heroimg.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    justify-content: center;
-
-} */
-
-/* NAV BAR */
-
-ul {
-    list-style: none;
-}
-
-.subMenu li {
-    display: inline-block;
-    width: 25%;
-    position: relative;
-    font-size: 14px;
-}
-
-.subMenu ul {
-    position: absolute;
-    display: none;
-
-}
-
-.subMenu ul li {
-    display: block;
-
-}
-
-ul li:hover ul {
-    display: block;
-
-}
-
 
 /* ---ANIMACIONES EFECTOS--- */
 
@@ -303,9 +260,6 @@ h6 {
 /* ----------------INSTAGRAM---------------- */
 
 
-.robleis span {
-    margin: 10px;
-}
 
 .instagram h2 {
     font-size: 32px;
@@ -756,7 +710,7 @@ article h3 {
 }
 
 /* Fotos Panel*/
-.panel.photos {
+.panel.letra-derecha {
     grid-template-rows: 1fr 3fr;
     overflow: hidden;
 }
@@ -772,7 +726,7 @@ article h3 {
         grid-template-columns: 1fr 1fr;
     }
 
-    .panel.photos {
+    .panel.letra-derecha {
         grid-column: span 2;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
