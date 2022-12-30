@@ -50,7 +50,6 @@ header nav {
 }
 
 header nav ul li {
-    /* display: inline-block; */
     margin: 5px 10px 5px 10px;
     font-weight: 700;
 }
@@ -98,7 +97,6 @@ nav ul li {
 
 .redes img {
     height: 30px;
-
 }
 
 
@@ -650,76 +648,64 @@ article h3 {
 
 /* -------||||||||| SECCION LETRAS|||||||||  -------  */
 
-.hero-letras {
-    height: 50vh;
-    width: 100%;
-    background-image: url("../img/headerletras.png");
-    background-size: cover;
-    background-position: center;
-}
-
-.main-letras {
+div.letras {
     display: grid;
     grid-template-columns: 1.2fr 1fr 1fr;
     min-height: 100%;
-}
-
-.panel {
+  }
+  .panel {
     display: grid;
     grid-template-columns: 1fr;
-}
-
-.panel .text {
+  }
+  .panel .text {
     background: #eeeee7;
     color: #323230;
     padding: 30px 60px;
-}
-
-/* Panel izquierda*/
-.panel.letra-izquierda {
+  }
+  
+  /* welcome panel */
+  .panel.welcome {
     background: #323230;
     padding: 30px 60px;
     grid-auto-rows: 1fr;
-}
-
-
-.panel.letra-izquierda p {
+  }
+  .panel.welcome nav a {
+    color: #a8a8a8;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  .panel.welcome p {
     color: #a8a8a8;
     max-width: 540px;
     line-height: 2em;
-}
-
-.panel.letra-izquierda h1 {
+  }
+  .panel.welcome h1 {
     color: #eeeee7;
     font-size: 3em;
-}
-
-.panel.letra-izquierda footer {
+  }
+  .panel.welcome footer {
     align-self: end;
-}
-
-/* Panel derecha*/
-.panel.letra-medio {
+  }
+  
+  /* about panel */
+  .panel.about {
     grid-template-rows: 3fr 1fr;
     overflow: hidden;
-}
-
-.panel.letra-medio img {
+  }
+  .panel.about img {
     min-height: 100%;
     min-width: 100%;
-}
-
-/* Fotos Panel*/
-.panel.letra-derecha {
+  }
+  
+  /* photos panel */
+  .panel.photos {
     grid-template-rows: 1fr 3fr;
     overflow: hidden;
-}
-
-.panel.letra-derecha img {
+  }
+  .panel.photos img {
     min-height: 100%;
     min-width: 100%;
-
-}
+  }
 
 @media screen and (max-width: 1400px) {
     .main-letras {

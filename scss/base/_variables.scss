@@ -1,21 +1,13 @@
 //! LISTAS
 
-$colores:
-red,
-blue,
-black;
-
-$font-size:
-2px,
-10px,
-25px;
+$color-rojo: #FF0000;
+$color-grisoscuro: #323230;
+$color-crema: #eeeee7;
 
 
-//!EXTENDS
-// % = placeholder
 
-%flex{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+@mixin center{
+    flex-direction: column;
+    justify-content: center !important;
+    text-align: center;
 }

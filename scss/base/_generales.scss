@@ -28,10 +28,25 @@ main {
 }
 
 h1.titulo-principal{
-    margin-top: 0px;
+margin-top: 0px;
 color: black;
 max-width: 1200px;
 margin: 40px auto;
 margin-top: 0px;
 border-bottom: 1px solid #bbc7c7;
 }
+
+ul{
+    li {
+        
+        a{
+                margin: 5px 10px 5px 10px;
+                font-weight: 700;
+                &:hover{
+                    color: yellow;
+                    }
+          
+        }
+    }
+} 
+

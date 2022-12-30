@@ -1,13 +1,13 @@
 main {
-    .tour{
+    section.tour{
         h2{
         }
         .fecha1{
             border-bottom: 1px solid #e2e2e2;
-    cursor: pointer;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
+            cursor: pointer;
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
             div{
                 h3{
 
@@ -16,36 +16,36 @@ main {
             .lugar-tour{
                 p{
                 }
-                div {
-                    p.boton-soldout{
-                        background-color: #bcbcbc;
-    border-color: rgba(226, 226, 226, .7);
-    color: #fff;
-    cursor: auto;
-    border-radius: 0;
-    border: 2px solid #fff(255, 255, 255, 0.7);
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 700;
-    line-height: 18px;
-    padding: 6px 32px;
-    letter-spacing: 1px;
-    text-align: center;
-    transition: all .3s ease;
-    position: relative;
-    display: inline-block;
-    overflow: visible;
-    margin-bottom: 25px;
-                    }
+            }
+            div {
+                p.boton-soldout{
+                    background-color: #bcbcbc;
+                    border-color: rgba(226, 226, 226, .7);
+                    color: #fff;
+                    cursor: auto;
+                    border-radius: 0;
+                    border: 2px solid #fff(255, 255, 255, 0.7);
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    line-height: 18px;
+                    padding: 6px 32px;
+                    letter-spacing: 1px;
+                    text-align: center;
+                    transition: all .3s ease;
+                    position: relative;
+                    display: inline-block;
+                    overflow: visible;
+                    margin-bottom: 25px;
                 }
             }
         }
         .fecha2{
             border-bottom: 1px solid #e2e2e2;
-    cursor: pointer;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
+            cursor: pointer;
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
             div{
                 h3{
 
@@ -80,34 +80,10 @@ main {
             }
             
         }
+    
+        
     }
-    .boton-data{
-        display: flex;
-justify-content: center;
-        a{
-        p.boton-fechas{
-            background-color: #fff;
-border-radius: 0;
-border: 2px solid rgba(0, 0, 0, .7);
-color: #000;
-cursor: pointer;
-font-size: 12px;
-text-transform: uppercase;
-font-weight: 700;
-line-height: 18px;
-padding: 6px 32px;
-letter-spacing: 1px;
-text-align: center;
-transition: all .3s ease;
-position: relative;
-display: inline-block;
-overflow: visible;
-margin-bottom: 25px;
-margin: 25px;
-text-align: center;
-        }
-        }
-    }
+    
 
 .contenedor-noticias{
     .noticias{
@@ -153,7 +129,7 @@ text-align: center;
     .boton-data{
         a{
             p.boton-noticias{
-                margin-top: 60px;
+                margin-top: 150px;
             }
         }
     }
@@ -207,28 +183,29 @@ text-align: center;
     .fotos-contenedor{
         display: flex;
     justify-content: center;
-        .fotos-1{
-            .item-1{
+        div.fotos-1{
+            img.item-1{
                 width: 784px;
-    height: 522.66px;
-           
+                height: 522.66px;
             }
 
         }
-        .fotos-2{
+        div.fotos-2{
             img {
+                display: flex;
+    flex-direction: column;
+            }
+            img.item-2.foto-3 {
                 width: 371.98px;
-                height: 260.98px;
-                padding-left: 40px;
-
-                .foto-4{
-                    padding-top: 20px;
-                }
-                .item-2{
-                    width: 371.98px;
     height: 260.98px;
     padding-left: 40px;
-                }
+    padding-bottom: 20px;
+            }
+            img.item-2.foto-4{
+                width: 371.98px;
+    height: 260.98px;
+    padding-left: 40px;
+    padding-top: 20px;
             }
         }
     }

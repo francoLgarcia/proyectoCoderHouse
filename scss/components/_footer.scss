@@ -4,13 +4,14 @@ footer {
     background-image: url("/img/footer.jpg");
     background-size: cover;
     background-position: center;
-    .footer{
+    div.footer{
         padding-top: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
         ul{
-            .redes-footer{
+            list-style: none;
+            div.redes-footer{
                 ul{
                     display: flex;
                     li{
@@ -27,13 +28,18 @@ footer {
                     }
                 }
             }
-            li{
-                a{
-                    text-decoration: none;
-    color: white;
-
+            div.contacto-footer {
+                li{
+                    a{
+                        text-decoration: none;
+                        color: white;
+    
+                    }
                 }
             }
+            
+            
+            
         }
     }
 }
