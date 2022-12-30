@@ -3,6 +3,7 @@
 $color-rojo: #FF0000;
 $color-grisoscuro: #323230;
 $color-crema: #eeeee7;
+$color-verdegay: #d0ff00;
 
 
 
@@ -10,4 +11,45 @@ $color-crema: #eeeee7;
     flex-direction: column;
     justify-content: center !important;
     text-align: center;
+}
+
+@mixin boton-comprar{
+    background-color: #fff;
+        border-radius: 0;
+        border: 2px solid rgba(0, 0, 0, .7);
+        color: #000;
+        cursor: pointer;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 18px;
+        padding: 6px 32px;
+        letter-spacing: 1px;
+        text-align: center;
+        transition: all .3s ease;
+        position: relative;
+        display: inline-block;
+        overflow: visible;
+        margin-bottom: 25px;
+}
+
+@mixin boton-soldout {
+    background-color: #bcbcbc;
+        border-color: rgba(226, 226, 226, .7);
+        color: #fff;
+        cursor: auto;
+        border-radius: 0;
+        border: 2px solid #fff(255, 255, 255, 0.7);
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 18px;
+        padding: 6px 32px;
+        letter-spacing: 1px;
+        text-align: center;
+        transition: all .3s ease;
+        position: relative;
+        display: inline-block;
+        overflow: visible;
+        margin-bottom: 25px;
 }

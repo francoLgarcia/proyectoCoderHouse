@@ -35,11 +35,11 @@ ul li a {
   ul li a:hover {
     color: yellow; }
 
-body header {
+header {
   background-color: black;
   display: flex;
   flex-wrap: wrap; }
-  body header div.hero {
+  header div.hero {
     height: 100vh;
     width: 100%;
     background-image: url("../img/heroimg.jpg");
@@ -47,52 +47,56 @@ body header {
     background-position: 15%;
     text-decoration: none;
     color: white; }
-    body header div.hero nav {
+    header div.hero nav {
       list-style: none; }
-      body header div.hero nav div.btn-group.dropdown ul.dropdown-menu li a {
+      header div.hero nav div.btn-group.dropdown ul.dropdown-menu li a {
         margin: 5px 10px 5px 10px;
         font-weight: 700;
         display: inline-block; }
-      body header div.hero nav .header {
+      header div.hero nav .header {
         font-size: 20px;
         display: flex;
         justify-content: space-between;
         flex-wrap: nowrap; }
-        body header div.hero nav .header .header-left ul li {
+        header div.hero nav .header .header-left ul li {
           display: inline-block; }
-          body header div.hero nav .header .header-left ul li a {
+          header div.hero nav .header .header-left ul li a {
             text-decoration: none;
             color: white;
             margin: 5px 10px 5px 10px;
             font-weight: 700; }
-        body header div.hero nav .header .header-center h1 a {
+            header div.hero nav .header .header-left ul li a:hover {
+              color: #d0ff00; }
+        header div.hero nav .header .header-center h1 a {
           text-decoration: none;
           color: white; }
-          body header div.hero nav .header .header-center h1 a img {
+          header div.hero nav .header .header-center h1 a img {
             width: 100%;
             width: 50vh;
             text-align: center; }
-        body header div.hero nav .header .header-right ul li {
+        header div.hero nav .header .header-right ul li {
           display: inline-block; }
-          body header div.hero nav .header .header-right ul li a {
+          header div.hero nav .header .header-right ul li a {
             text-decoration: none;
             color: white;
             margin: 5px 10px 5px 10px;
             font-weight: 700; }
-      body header div.hero nav .redes {
+            header div.hero nav .header .header-right ul li a:hover {
+              color: #d0ff00; }
+      header div.hero nav .redes {
         display: block;
         position: absolute;
         right: 31px;
         bottom: -9px;
         z-index: 1; }
-        body header div.hero nav .redes ul li {
+        header div.hero nav .redes ul li {
           display: inline-block; }
-          body header div.hero nav .redes ul li a img {
+          header div.hero nav .redes ul li a img {
             height: 30px;
             transition-property: height;
             transition-duration: 0.6s;
             transition-timing-function: ease-in-out; }
-            body header div.hero nav .redes ul li a img:hover {
+            header div.hero nav .redes ul li a img:hover {
               height: 50px; }
 
 header.header-seccion {
@@ -111,30 +115,34 @@ header.header-seccion {
         margin: 5px 10px 5px 10px;
         font-weight: 700;
         display: inline-block; }
-      header.header-seccion div.hero-seccion nav .header {
+      header.header-seccion div.hero-seccion nav div.header {
         font-size: 20px;
         display: flex;
         justify-content: space-between;
         flex-wrap: nowrap; }
-        header.header-seccion div.hero-seccion nav .header .header-left ul li {
+        header.header-seccion div.hero-seccion nav div.header .header-left ul li {
           padding: 0;
           list-style-type: none;
           display: inline-block; }
-          header.header-seccion div.hero-seccion nav .header .header-left ul li a {
+          header.header-seccion div.hero-seccion nav div.header .header-left ul li a {
             text-decoration: none;
             color: white; }
-        header.header-seccion div.hero-seccion nav .header .header-center h1 a {
+            header.header-seccion div.hero-seccion nav div.header .header-left ul li a:hover {
+              color: #d0ff00; }
+        header.header-seccion div.hero-seccion nav div.header .header-center h1 a {
           text-decoration: none;
           color: white; }
-          header.header-seccion div.hero-seccion nav .header .header-center h1 a img {
-            width: 100%;
-            width: 50vh;
+          header.header-seccion div.hero-seccion nav div.header .header-center h1 a img {
+            width: 50%;
+            width: 25vh;
             text-align: center; }
-        header.header-seccion div.hero-seccion nav .header .header-right ul li {
+        header.header-seccion div.hero-seccion nav div.header .header-right ul li {
           display: inline-block; }
-          header.header-seccion div.hero-seccion nav .header .header-right ul li a {
+          header.header-seccion div.hero-seccion nav div.header .header-right ul li a {
             text-decoration: none;
             color: white; }
+            header.header-seccion div.hero-seccion nav div.header .header-right ul li a:hover {
+              color: #d0ff00; }
       header.header-seccion div.hero-seccion nav .redes {
         display: block;
         position: absolute;
@@ -401,7 +409,7 @@ main.seccion-tour div.agotado {
   text-align: center;
   display: flex;
   justify-content: space-evenly; }
-  main.seccion-tour div.agotado div p.boton-soldout {
+  main.seccion-tour div.agotado div .boton-soldout {
     background-color: #bcbcbc;
     border-color: rgba(226, 226, 226, 0.7);
     color: #fff;
@@ -650,11 +658,7 @@ footer {
       main.seccion-letras div.letras div.panel.medio img {
         width: 100%; }
     main.seccion-letras div.letras div.panel.derecha img {
-      width: 100%; }
-    main.seccion-letras div.letras div.letra-contenedor {
-      display: flex; }
-      main.seccion-letras div.letras div.letra-contenedor div {
-        flex-direction: row; } }
+      width: 100%; } }
 
 @media screen and (max-width: 680px) {
   main.seccion-letras div.letras {

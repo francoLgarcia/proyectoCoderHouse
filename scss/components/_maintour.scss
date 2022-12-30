@@ -16,25 +16,8 @@ main.seccion-tour {
                 }
 
                 div {
-                        p.boton-soldout{
-                            background-color: #bcbcbc;
-        border-color: rgba(226, 226, 226, .7);
-        color: #fff;
-        cursor: auto;
-        border-radius: 0;
-        border: 2px solid #fff(255, 255, 255, 0.7);
-        font-size: 12px;
-        text-transform: uppercase;
-        font-weight: 700;
-        line-height: 18px;
-        padding: 6px 32px;
-        letter-spacing: 1px;
-        text-align: center;
-        transition: all .3s ease;
-        position: relative;
-        display: inline-block;
-        overflow: visible;
-        margin-bottom: 25px;
+                        .boton-soldout{
+                            @include boton-soldout;
                         }
                     }
                 }
@@ -58,23 +41,7 @@ main.seccion-tour {
                 }
                 div{
                     .boton-comprar{
-                        background-color: #fff;
-        border-radius: 0;
-        border: 2px solid rgba(0, 0, 0, .7);
-        color: #000;
-        cursor: pointer;
-        font-size: 12px;
-        text-transform: uppercase;
-        font-weight: 700;
-        line-height: 18px;
-        padding: 6px 32px;
-        letter-spacing: 1px;
-        text-align: center;
-        transition: all .3s ease;
-        position: relative;
-        display: inline-block;
-        overflow: visible;
-        margin-bottom: 25px;
+                        @include boton-comprar;
                     }
                 }
                 
